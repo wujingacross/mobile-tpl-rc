@@ -59,7 +59,7 @@
   "homepage": ".",
   "repository": {
     "type": "git",
-    "url": "git+http://git.1d1d100.com/FRONTEND/rc-wechat-tpl.git"
+    "url": "https://github.com/wujingacross/mobile-tpl-rc.git"
   },
   "keywords": [
     "business",
@@ -71,7 +71,7 @@
   "author": "Tristan",
   "license": "ISC",
   "bugs": {
-    "url": "http://git.1d1d100.com/FRONTEND/rc-wechat-tpl/issues"
+    "url": "https://github.com/wujingacross/mobile-tpl-rc/issues"
   },
   "engines": {
     "node": ">=10.0.0",
