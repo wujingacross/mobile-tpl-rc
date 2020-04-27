@@ -1,0 +1,9 @@
+{
+  "name": "rc-wechat-tpl",
+  "target_path": "build",
+  "remote_dir": "FRONTEND",
+  "build": {
+    "dev|test": "npm install && npm run build-test",
+    "preview|prod": "npm install && npm run build-online"
+  }
+}
