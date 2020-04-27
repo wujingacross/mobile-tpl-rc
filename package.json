@@ -62,11 +62,9 @@
     "url": "https://github.com/wujingacross/mobile-tpl-rc.git"
   },
   "keywords": [
-    "business",
     "react",
     "frontend",
-    "tool",
-    "school"
+    "tool"
   ],
   "author": "Tristan",
   "license": "ISC",
