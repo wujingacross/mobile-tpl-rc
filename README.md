@@ -29,10 +29,12 @@
 - `components`/`containers`/`pages`分别对应：组件，容器和页面
 - 包管理工具推荐使用`yarn`
 - 样式统一使用`styled-components`
-  - 公共样式定义在`src/assets/style/Common.style.js`文件中
+  - 公共样式定义在`src/common/style/Common.style.js`文件中
+  - 页面样式定义在与`index.js`平级的`styled.js`文件中
 - 页面数据都走redux
   - 公共数据存放在`src/common/redux/`文件夹下
-- 接口数据定义在`src/common/api`文件中
+  - 页面数据存放在对应页面下的redux文件夹下，如：`src/pages/Home/redux`
+- 接口数据定义在`src/common/api`文件中, 可根据页面进行文件拆分
 - 常量数据定义在`src/common/const`文件中
 - 接口请求操作定义在`src/common/request`文件中
 - 通用函数定义在`src/common/utils`文件中

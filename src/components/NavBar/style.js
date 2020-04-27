@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { flexWrap } from '@/assets/style/Common.style';
+import { flexWrap } from '@/common/style/Common.style';
 
 const navbarHeight = '44px';
 
